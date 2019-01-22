@@ -1,23 +1,21 @@
 importers:
   .:
-    dependencies:
-      lodash: 3.10.1
-    specifiers:
-      lodash: ^3.10.1
+    specifiers: {}
   packages:
+    specifiers: {}
+  packages/app:
     dependencies:
-      lodash: 3.10.1
+      bar: 'link:../bar'
+      baz: 'link:../baz'
+      foo: 'link:../foo'
     specifiers:
-      lodash: ^3.10.1
+      bar: '*'
+      baz: '*'
+      foo: '*'
   packages/bar:
     specifiers: {}
   packages/baz:
     specifiers: {}
   packages/foo:
     specifiers: {}
-packages:
-  /lodash/3.10.1:
-    dev: false
-    resolution:
-      integrity: sha1-W/Rejkm6QYnhfUgnid/RW9FAt7Y=
 shrinkwrapVersion: 4
