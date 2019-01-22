@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "peer-dependencies": {
+  "peerDependencies": {
     "lodash": "^3"
   }
 }
