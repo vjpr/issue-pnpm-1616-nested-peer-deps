@@ -9,7 +9,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "//dependencies": {
-    "lodash": "^3.10.1"
+  "dependencies": {
+    "apollo-client": "^2",
+    "react": "^16",
+    "react-dom": "^16",
+    "graphql": "^14"
   }
 }

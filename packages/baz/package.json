@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "peerDependencies": {
-    "lodash": "^4"
+  "dependencies": {
+    "react-apollo": "^2"
   }
 }

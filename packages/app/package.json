@@ -9,9 +9,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "bar": "*",
-    "baz": "*",
-    "foo": "*"
+  "//dependencies": {
+    "apollo-client": "^2",
+    "react": "^16",
+    "react-dom": "^16",
+    "graphql": "^14"
   }
 }
