@@ -1,9 +1,9 @@
 importers:
   .:
     dependencies:
-      lodash: 2.4.2
+      lodash: 3.10.1
     specifiers:
-      lodash: ^2.4.2
+      lodash: ^3.10.1
   packages:
     dependencies:
       lodash: 3.10.1
@@ -16,13 +16,6 @@ importers:
   packages/foo:
     specifiers: {}
 packages:
-  /lodash/2.4.2:
-    dev: false
-    engines:
-      '0': node
-      '1': rhino
-    resolution:
-      integrity: sha1-+t2DS5aDBz2hebPq5tnA0VBT9z4=
   /lodash/3.10.1:
     dev: false
     resolution:
